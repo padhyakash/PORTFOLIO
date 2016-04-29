@@ -1,0 +1,221 @@
+/* -----  Aakash Padhy ------ */
+/*------  Dated : 11/01/16 --*/
+
+
+html,body,#bg {
+	margin:0;
+	padding:0;
+	font-family:arial;
+	color:#333;
+}
+.bg {
+   	   background:url('../img/bg.jpg');
+   	   background-size: cover;
+   }
+   
+
+/*-----  header -------*/
+
+header {
+	position: relative;
+	width:100%;
+	height:80px;
+	/*background:#22a9ff; */
+	background:rgba(22,110,255,0.6);
+}
+header.fixed {
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+.container {
+	width:980px;
+	margin:0 auto;
+	padding:5px;
+}
+header .brand {
+	text-decoration:none;
+    color:#fff;
+    text-align:left;
+    line-height: 80px;
+    font-size:2.2em;
+    text-transform: uppercase;
+    text-shadow:1px 1px 1px #666;
+    float:left;
+}
+
+section{
+	margin-top:80px;
+}
+/*---- navigation top menu ----*/
+nav.top-menu {
+	position:relative; 
+	float:right; 
+	margin-right:30px;
+	vertical-align: middle;
+}
+
+nav.top-menu ul {
+	padding:0;
+	margin:20px 0 0 0;
+}
+nav.top-menu ul li{
+	display:inline-block;
+	list-style-type: none;
+	padding:8px 12px;
+	border-radius:5px; 
+}
+nav.top-menu ul li a{
+	font-family:arial; 
+	font-size:1.1em;
+	color:#111;
+	text-align:center;
+	text-decoration: none;
+}
+nav.top-menu ul li:hover {
+	background:rgba(0,0,0,0.6);
+}
+nav.top-menu ul li:hover a {
+	color:#eee;
+}
+nav.top-menu ul li.active {
+	background:rgba(0,0,0,0.7);
+}
+nav.top-menu ul li.active a {
+	color:#eee;
+}
+
+nav.top-menu ul li.no-bg {
+	padding:0;
+}
+nav.top-menu ul li.no-bg:hover {
+	background:transparent;
+}
+button.btn {
+	background:transparent;
+	padding:5px 10px;
+	border-radius:4px;
+	border:2px solid #ff8022;
+	color:#ff8022;
+	font-size:1em;
+	font-weight:bold;
+	transition:all 0.3s linear;
+   }
+button.btn:hover {
+	background:#ff8022;
+	color:#fff;
+	transition:all 0.3s linear;
+}
+button.btn:focus {
+	outline:0;
+}
+
+
+/*---- navigation menu end ---- */
+
+/*--- section start ----*/
+
+.mT30 {
+   	margin-top:20px;
+}
+.mT0{
+	margin-top:30px;
+	line-height: 1.8;
+}
+.mT0 a{
+    text-decoration: none;
+}
+.mT20 {
+	margin-top:20px;
+	line-height: 1.8;
+}
+.mT10 {
+	margin-top:10px;
+	line-height: 1.8;
+}
+.mT40{
+	margin-top:50px;
+	line-height: 1.8;
+}
+.mT40 a{
+	text-decoration: none;
+}
+.mT50{
+	width: 300px;
+	margin-top:20px;
+	line-height: 1.8;
+}
+.mT70{
+	margin-top:10px;
+}
+.mT70 a{
+    text-decoration: none;
+}
+.content mT50 h5{
+	text-decoration: none;
+	float: left;
+}
+.media {
+
+	position:relative;
+	width:100%;
+}
+.media img {
+	width: 170px;
+	height: 170px;
+	border: #555 solid 2px;
+	border-radius:2px;
+	float:left;
+	margin-right:10px;
+}
+.media p {
+    width:600px;
+    float:left;
+	font-family: sans-serif;
+	text-align: justify;
+	line-height: 1.8em;
+	margin:20px 0 0 10px;
+}
+.content{
+	clear:both;
+    width:100%;
+    float:left;
+}
+
+.content ul{
+	font-family: sans-serif;
+	line-height: 1.8;
+	}
+	.content p{
+
+	}
+.learn{
+   clear:both;
+    width:100%;
+    float:left;
+}
+
+.learn h2{
+	font-weight: bold;
+}
+.learn p{
+	text-align: justify;
+	}
+.learn a{
+	text-decoration: none;
+	}
+
+/*---- Section End ---- */
+
+/*---- Footer Start ---- */
+.social{
+	background-color: #fff;
+	float: right;
+	margin-right: 450px;
+	}
+.social img{
+	width: 40px;
+	}
+.social p{
+	text-align: center;
+	}	

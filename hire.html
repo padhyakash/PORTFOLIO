@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Akash portfolio | Hire me</title>
+ 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  
+<!-- ===== Header section ===== -->
+ <header class="fixed">
+   <div class="container">
+   		<a href="index.html" class="brand">AKASH Padhy  </a> 
+   		<nav class="top-menu">
+      		<ul>
+        		<li><a href="index.html"> PORTFOLIO </a></li>
+        		<li><a href="about.html"> ABOUT </a></li>
+        		<li><a href="testimonial.html"> TESTIMONIALS </a></li>
+        		<li class="select"><button class="btn"><a href="hire.html">Hire Akash</a></button></li>
+      		</ul>
+     	</nav>
+   </div>
+ </header>
+<!-- ==== Header End ==== --> 
+
+<!-- ==== Section Start === -->
+<section>
+  <div class="container">
+  <div class="content mT40">
+    <p>Please fill out the form below to enquire about hiring me. To learn about how I work and the value I can bring to your project, please visit About.  View <a href="index.html"> my Portfolio.</a> </p>
+   <p>General messages may be sent via the <a href="contactform.html">contact form.</a></p>
+  </div>
+
+    <br><br>
+
+    <form method="POST" action="scripts/connectdb.php">
+      <label>Name </label> 
+        <input type="text" name="username" placeholder="Enter Username" required /> <br><br>
+      <label>Email </label> 
+        <input type="email" name="email" placeholder="Enter Email Id" required /> <br><br>
+      <label>Phone </label> 
+        <input type="tel" name="phone" placeholder="Enter Phone Number" maxlength="10"/> <br><br>
+      <label>Password </label> 
+        <input type="password" name="password" placeholder="Enter Password"/> <br><br>
+      <label>Address </label><br>
+        <textarea name="address" rows="4" cols="50"></textarea>
+        <br><Br/>
+      <label>Your Website</label>  
+        <input type="url" name="website" placeholder="eg.www.reduxpress.in"/> <br><br> 
+      <h4>Project Details</h4>
+      <p>Please specify a budget. This helps me determine the best solution for your circumstances.</p>
+      <label>Budget</label> 
+        <input type="price" name="budget" placeholder="INR 30k"/> <br><br>
+      <label>Project Description</label> <br>
+        <textarea name="description" rows="10" cols="100"></textarea> <br><br>
+      <input type="submit" name="send" value="Send"/><br><br>
+    </form>
+</section>
+<!-- ==== Section End ===== --> 
+
+<!-- ==== Footer Section ====== --> 
+<footer>
+  <div class="container">
+    <div class="social">
+      <a href="https://www.facebook.com/akash.padhy.9" target="_blank">
+        <img src="img/fb.png"></a>
+        <a href="https://plus.google.com/u/0/100911480507394487289/posts" target="_blank">
+        <img src="img/g.png"> </a>
+        <a href="https://twitter.com/padhy_akash" target="_blank">
+        <img src="img/tw.png"> </a>
+        <a href="https://www.instagram.com/padhyakash/" target="_blank">
+        <img src="img/in.png"> </a>
+        <p>&copy; 2016Akash Padhy</p>
+    </div>
+  </div>
+</footer>
+<!-- ===== Footer End ==== -->
+</body>
+</html>   
